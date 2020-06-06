@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>672193211210-ai957a0rbevi9v6odu8vlnq3juf84ejm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.672193211210-ai957a0rbevi9v6odu8vlnq3juf84ejm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAMtBbDiau9dXkKNZEDTDTZeurn7FStCu4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>672193211210</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kazuya.PushUpApp</string>
+	<key>PROJECT_ID</key>
+	<string>pushupmusicapp01</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pushupmusicapp01.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:672193211210:ios:42ae61c25b6c5fc755efb3</string>
+	<key>DATABASE_URL</key>
+	<string>https://pushupmusicapp01.firebaseio.com</string>
+</dict>
+</plist>

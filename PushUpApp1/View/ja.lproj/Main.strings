@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Push-Up"; ObjectID = "7pQ-td-yZO"; */
+"7pQ-td-yZO.text" = "Push-Up";
+
+/* Class = "UIButton"; normalTitle = "Share"; ObjectID = "IvY-SX-w8L"; */
+"IvY-SX-w8L.normalTitle" = "Share";
+
+/* Class = "UILabel"; text = "Push-Up Time"; ObjectID = "cFJ-Gk-Exm"; */
+"cFJ-Gk-Exm.text" = "Push-Up Time";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "dcJ-KH-pYb"; */
+"dcJ-KH-pYb.text" = "0";
+
+/* Class = "UILabel"; text = "曲名"; ObjectID = "fBp-6R-peA"; */
+"fBp-6R-peA.text" = "曲名";
+
+/* Class = "UIButton"; normalTitle = "Finish!!"; ObjectID = "j8F-1x-wOS"; */
+"j8F-1x-wOS.normalTitle" = "Finish!!";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "jaB-DE-91p"; */
+"jaB-DE-91p.text" = "0";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "ogt-xR-TX1"; */
+"ogt-xR-TX1.text" = "00:00";
+
+/* Class = "UILabel"; text = "Remaining Time"; ObjectID = "rhH-99-7Kp"; */
+"rhH-99-7Kp.text" = "Remaining Time";
+
+/* Class = "UILabel"; text = "00:00"; ObjectID = "wCj-V9-kaN"; */
+"wCj-V9-kaN.text" = "00:00";
+
+/* Class = "UIButton"; normalTitle = "Select music !"; ObjectID = "xs7-TE-afa"; */
+"xs7-TE-afa.normalTitle" = "Select music !";
+
+/* Class = "UILabel"; text = "アーティスト名"; ObjectID = "yXY-a9-41d"; */
+"yXY-a9-41d.text" = "アーティスト名";

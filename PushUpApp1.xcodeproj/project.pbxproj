@@ -3,20 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E1DF5BFA44EE2C78F4F247A /* Pods_PushUpApp1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7E72D3F48C6F6BC840A511E /* Pods_PushUpApp1.framework */; };
+		E58786FE245BFF2200EB440D /* iPadAir3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58786FD245BFF2200EB440D /* iPadAir3.storyboard */; };
+		E5878700245C0A4100EB440D /* iPadPro9.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E58786FF245C0A4100EB440D /* iPadPro9.storyboard */; };
+		E5878702245C0E0E00EB440D /* iPadPro11.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5878701245C0E0E00EB440D /* iPadPro11.storyboard */; };
+		E5878704245C0F0900EB440D /* iPadPro12.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5878703245C0F0900EB440D /* iPadPro12.storyboard */; };
+		E5D3CAC32458719800B78D32 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D3CAC22458719800B78D32 /* NextViewController.swift */; };
 		E5E7E04A2456BFEC0021B13F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7E0492456BFEC0021B13F /* AppDelegate.swift */; };
 		E5E7E04C2456BFEC0021B13F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7E04B2456BFEC0021B13F /* SceneDelegate.swift */; };
 		E5E7E04E2456BFEC0021B13F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7E04D2456BFEC0021B13F /* ViewController.swift */; };
 		E5E7E0512456BFEC0021B13F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7E04F2456BFEC0021B13F /* Main.storyboard */; };
 		E5E7E0532456BFF10021B13F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E7E0522456BFF10021B13F /* Assets.xcassets */; };
 		E5E7E0562456BFF10021B13F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E7E0542456BFF10021B13F /* LaunchScreen.storyboard */; };
+		E5F3EC2124639BAE003CDB9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E5F3EC2024639BAE003CDB9F /* GoogleService-Info.plist */; };
+		E5FFD969245B0B9800EC2CD0 /* iPhone8Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FFD968245B0B9800EC2CD0 /* iPhone8Plus.storyboard */; };
+		E5FFD96B245B11F000EC2CD0 /* iPhoneSE2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FFD96A245B11F000EC2CD0 /* iPhoneSE2.storyboard */; };
+		E5FFD96D245B181C00EC2CD0 /* iPhone11Pro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5FFD96C245B181C00EC2CD0 /* iPhone11Pro.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5E7E0462456BFEC0021B13F /* PushUpApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushUpApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B2D6BF428DF6E1DF58A134 /* Pods-PushUpApp1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushUpApp1.release.xcconfig"; path = "Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1.release.xcconfig"; sourceTree = "<group>"; };
+		74421949E229DFFCEFBF6CA6 /* Pods-PushUpApp1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PushUpApp1.debug.xcconfig"; path = "Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1.debug.xcconfig"; sourceTree = "<group>"; };
+		B7E72D3F48C6F6BC840A511E /* Pods_PushUpApp1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PushUpApp1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E57CD6ED245AADB500DA891C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		E57CD6EE245AADB600DA891C /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E58786FD245BFF2200EB440D /* iPadAir3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadAir3.storyboard; sourceTree = "<group>"; };
+		E58786FF245C0A4100EB440D /* iPadPro9.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadPro9.storyboard; sourceTree = "<group>"; };
+		E5878701245C0E0E00EB440D /* iPadPro11.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadPro11.storyboard; sourceTree = "<group>"; };
+		E5878703245C0F0900EB440D /* iPadPro12.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPadPro12.storyboard; sourceTree = "<group>"; };
+		E5D3CAC22458719800B78D32 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		E5E7E0462456BFEC0021B13F /* Push-Up Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Push-Up Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E7E0492456BFEC0021B13F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5E7E04B2456BFEC0021B13F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E5E7E04D2456BFEC0021B13F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +44,11 @@
 		E5E7E0522456BFF10021B13F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E7E0552456BFF10021B13F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E7E0572456BFF10021B13F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F3EC2024639BAE003CDB9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E5F3EC222463B00B003CDB9F /* Push-Up Music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Push-Up Music.entitlements"; sourceTree = "<group>"; };
+		E5FFD968245B0B9800EC2CD0 /* iPhone8Plus.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone8Plus.storyboard; sourceTree = "<group>"; };
+		E5FFD96A245B11F000EC2CD0 /* iPhoneSE2.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhoneSE2.storyboard; sourceTree = "<group>"; };
+		E5FFD96C245B181C00EC2CD0 /* iPhone11Pro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPhone11Pro.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +56,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1DF5BFA44EE2C78F4F247A /* Pods_PushUpApp1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3749C8DF9F103057B4043F7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7E72D3F48C6F6BC840A511E /* Pods_PushUpApp1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62CA24F8ADB4B4A8A22435E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74421949E229DFFCEFBF6CA6 /* Pods-PushUpApp1.debug.xcconfig */,
+				15B2D6BF428DF6E1DF58A134 /* Pods-PushUpApp1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E5E7E03D2456BFEC0021B13F = {
 			isa = PBXGroup;
 			children = (
 				E5E7E0482456BFEC0021B13F /* PushUpApp1 */,
 				E5E7E0472456BFEC0021B13F /* Products */,
+				62CA24F8ADB4B4A8A22435E5 /* Pods */,
+				3749C8DF9F103057B4043F7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E5E7E0472456BFEC0021B13F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5E7E0462456BFEC0021B13F /* PushUpApp1.app */,
+				E5E7E0462456BFEC0021B13F /* Push-Up Music.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +101,41 @@
 		E5E7E0482456BFEC0021B13F /* PushUpApp1 */ = {
 			isa = PBXGroup;
 			children = (
+				E5F3EC222463B00B003CDB9F /* Push-Up Music.entitlements */,
+				E5E7E07E2457DCD20021B13F /* View */,
+				E5E7E07D2457DCB60021B13F /* Controller */,
+				E5E7E0572456BFF10021B13F /* Info.plist */,
+				E5F3EC2024639BAE003CDB9F /* GoogleService-Info.plist */,
+			);
+			path = PushUpApp1;
+			sourceTree = "<group>";
+		};
+		E5E7E07D2457DCB60021B13F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				E5E7E0492456BFEC0021B13F /* AppDelegate.swift */,
 				E5E7E04B2456BFEC0021B13F /* SceneDelegate.swift */,
 				E5E7E04D2456BFEC0021B13F /* ViewController.swift */,
-				E5E7E04F2456BFEC0021B13F /* Main.storyboard */,
-				E5E7E0522456BFF10021B13F /* Assets.xcassets */,
-				E5E7E0542456BFF10021B13F /* LaunchScreen.storyboard */,
-				E5E7E0572456BFF10021B13F /* Info.plist */,
+				E5D3CAC22458719800B78D32 /* NextViewController.swift */,
 			);
-			path = PushUpApp1;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E5E7E07E2457DCD20021B13F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7E0542456BFF10021B13F /* LaunchScreen.storyboard */,
+				E5E7E04F2456BFEC0021B13F /* Main.storyboard */,
+				E5FFD968245B0B9800EC2CD0 /* iPhone8Plus.storyboard */,
+				E5FFD96A245B11F000EC2CD0 /* iPhoneSE2.storyboard */,
+				E5FFD96C245B181C00EC2CD0 /* iPhone11Pro.storyboard */,
+				E58786FF245C0A4100EB440D /* iPadPro9.storyboard */,
+				E58786FD245BFF2200EB440D /* iPadAir3.storyboard */,
+				E5878701245C0E0E00EB440D /* iPadPro11.storyboard */,
+				E5878703245C0F0900EB440D /* iPadPro12.storyboard */,
+				E5E7E0522456BFF10021B13F /* Assets.xcassets */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5E7E05A2456BFF10021B13F /* Build configuration list for PBXNativeTarget "PushUpApp1" */;
 			buildPhases = (
+				851BE90AD592A537C32B717E /* [CP] Check Pods Manifest.lock */,
 				E5E7E0422456BFEC0021B13F /* Sources */,
 				E5E7E0432456BFEC0021B13F /* Frameworks */,
 				E5E7E0442456BFEC0021B13F /* Resources */,
+				D04D0FCEBFEB7ADDD3201B9B /* [CP] Embed Pods Frameworks */,
+				F6EBBFB4793BA1D87FD8C029 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -84,7 +158,7 @@
 			);
 			name = PushUpApp1;
 			productName = PushUpApp1;
-			productReference = E5E7E0462456BFEC0021B13F /* PushUpApp1.app */;
+			productReference = E5E7E0462456BFEC0021B13F /* Push-Up Music.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -109,6 +183,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = E5E7E03D2456BFEC0021B13F;
 			productRefGroup = E5E7E0472456BFEC0021B13F /* Products */;
@@ -125,13 +200,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5878702245C0E0E00EB440D /* iPadPro11.storyboard in Resources */,
+				E5F3EC2124639BAE003CDB9F /* GoogleService-Info.plist in Resources */,
+				E5878704245C0F0900EB440D /* iPadPro12.storyboard in Resources */,
+				E5FFD969245B0B9800EC2CD0 /* iPhone8Plus.storyboard in Resources */,
 				E5E7E0562456BFF10021B13F /* LaunchScreen.storyboard in Resources */,
+				E5878700245C0A4100EB440D /* iPadPro9.storyboard in Resources */,
 				E5E7E0532456BFF10021B13F /* Assets.xcassets in Resources */,
+				E58786FE245BFF2200EB440D /* iPadAir3.storyboard in Resources */,
 				E5E7E0512456BFEC0021B13F /* Main.storyboard in Resources */,
+				E5FFD96B245B11F000EC2CD0 /* iPhoneSE2.storyboard in Resources */,
+				E5FFD96D245B181C00EC2CD0 /* iPhone11Pro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		851BE90AD592A537C32B717E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PushUpApp1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04D0FCEBFEB7ADDD3201B9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EBBFB4793BA1D87FD8C029 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PushUpApp1/Pods-PushUpApp1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E5E7E0422456BFEC0021B13F /* Sources */ = {
@@ -139,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E7E04E2456BFEC0021B13F /* ViewController.swift in Sources */,
+				E5D3CAC32458719800B78D32 /* NextViewController.swift in Sources */,
 				E5E7E04A2456BFEC0021B13F /* AppDelegate.swift in Sources */,
 				E5E7E04C2456BFEC0021B13F /* SceneDelegate.swift in Sources */,
 			);
@@ -151,6 +294,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5E7E0502456BFEC0021B13F /* Base */,
+				E57CD6ED245AADB500DA891C /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +303,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				E5E7E0552456BFF10021B13F /* Base */,
+				E57CD6EE245AADB600DA891C /* ja */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -230,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -282,16 +429,23 @@
 		};
 		E5E7E05B2456BFF10021B13F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74421949E229DFFCEFBF6CA6 /* Pods-PushUpApp1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PushUpApp1/Push-Up Music.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEVELOPMENT_TEAM = CCCXZX556R;
 				INFOPLIST_FILE = PushUpApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kazu8.PushUpApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazuya.PushUpApp;
+				PRODUCT_NAME = "Push-Up Music";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +453,23 @@
 		};
 		E5E7E05C2456BFF10021B13F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B2D6BF428DF6E1DF58A134 /* Pods-PushUpApp1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "PushUpApp1/Push-Up Music.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.4;
+				DEVELOPMENT_TEAM = CCCXZX556R;
 				INFOPLIST_FILE = PushUpApp1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.kazu8.PushUpApp1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kazuya.PushUpApp;
+				PRODUCT_NAME = "Push-Up Music";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
